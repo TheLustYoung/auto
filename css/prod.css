@@ -1,0 +1,144 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Blender Pro";
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content:center;
+}
+
+.box-header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1110px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgba(70, 70, 70, 0.308);
+}  
+
+
+.text-header button{
+    border: none;
+    border-radius: 5px;
+    background:#293c4b;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.text-header button:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 7px 10px rgba(48, 48, 48, 0.548);
+}
+
+.text-header h4{
+    margin: 7 5 7 5;
+    color: white;
+    font-weight: 500;
+}
+
+.cont-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.cont-header h4{
+    transition: all 0.2s;
+}
+
+.cont-header h4:hover{
+    transform: scale(1.2);
+}
+
+content{
+    margin-top: 50px;
+}
+
+.log{
+    position: relative;
+    left: 10%;
+    bottom: 20px;
+}
+
+.log h2{
+    background: #293c4b;
+    color: white;
+    padding: 7 7 7 7;
+    width: 83px;
+    border-radius: 8px;
+}
+
+
+.card{
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    margin-bottom: 25px;
+
+}
+
+.card img{
+    width: 150px;
+
+}
+
+
+[class^="card-"] {
+    background: white;
+    display:grid;
+    place-items: center;    
+    border-radius: 10px;
+    width: 180px; 
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 270px;
+}
+
+[class^="card-"]:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 7px 10px rgba(75, 73, 73, 0.479);
+}
+
+.h3-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.h3-img img {
+    width:50px;
+    margin: 0;
+}
+
+.catalog{
+    display:flex;
+    justify-content:center;
+}
+
+.cat-gap{
+    display:flex;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.modal-text h4{
+    padding: 10px 12px 10px 12px;
+    margin: 0;
+}
+
+.modal-box{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
